@@ -1,0 +1,23 @@
+table = []
+rnge = int(input("what is the range?"))
+for i in range(1,rnge+1):
+    answ = 5 * i
+    table.append(answ)
+print(table)
+indx = int(input("Which index are you looking for?"))
+print(table[indx])
+
+element = int(input("Which element are you looking for?"))
+
+found = bool(False)
+for index in range(0, rnge):
+   newElement = table[index]
+   if(newElement == element):
+       print("hurray element found at index ", index)
+       found = True
+       break
+
+if(found == False):
+   print("Element not found")
+   
+
