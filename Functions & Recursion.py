@@ -8,8 +8,7 @@ print('Average: ',avr)
 
 
 
-print("Shaurya", end = " ")
-print("Verma")
+
 states = ["Bihar","Maharastra", "Punjab","Tamil Nadu","Kashmir"]
 players = ["Kohli","Bumrah","Smith","Warner","Sandpaper","Shreyas"]
 def size_list (list):
