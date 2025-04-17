@@ -16,17 +16,13 @@ for row in range(5):
         num += 1
     print("\n")
 
-print("Printing co-ordinate positions of each place in the 5 X 5 grid")
+print("Printing a right angle triangle with character a")
 for row in range(1,6):
    for col in range(row):
        print("a", end=" ")
    print("\n") 
 
-print("Printing a right angle triangle with character a")
-for r in range():
-   for c in range():
-       print("a", end=" ")
-   print("\n")
+
 
 
 
