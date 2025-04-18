@@ -24,3 +24,9 @@ def factorial(num):
 # num = int(input("Enter a number: ")) < ----- The way to print the funtion
 # fact = factorial(num)
 # print("The factorial of", num, "is", fact)
+
+def sum_array(numbers):
+    total = 0
+    for i in len(numbers):
+        total = total + numbers[i]
+    return sum_array

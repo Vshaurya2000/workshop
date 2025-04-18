@@ -11,4 +11,3 @@ height = input("Enter your height in centimeters!!!")
 about_chara.update({"height" : height})
 height = int(height)
 
-print("Here is your given information",about_chara)
