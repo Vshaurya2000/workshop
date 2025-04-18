@@ -27,6 +27,12 @@ def factorial(num):
 
 def sum_array(numbers):
     total = 0
-    for i in len(numbers):
-        total = total + numbers[i]
-    return sum_array
+    for i in range(len(numbers)):  
+        total += numbers[i]
+    return total
+
+# user_input = input("Enter numbers separated by spaces: ") < ----- The way to print the funtion
+# numbers_list = list(map(int, user_input.split()))
+# result = sum_array(numbers_list)
+# print("The sum is:", result)
+                  
